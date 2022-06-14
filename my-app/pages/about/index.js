@@ -9,8 +9,8 @@ const About = () => {
 
   return (
     <MainLayout title="ABOUT">
-      <button onClick={() => onClick('/')}>Go back to home</button>
-      <button onClick={() => onClick('/posts')}>Go to posts</button>
+      <button onClick={() => onClick('/')}>Go back Home</button>
+      <button onClick={() => onClick('/posts')}>Go to Friends</button>
       <h1>ABOUT PAGE</h1>
       <p>
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque

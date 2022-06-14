@@ -4,7 +4,7 @@ import Link from 'next/link';
 const pages = [
   { page: 'Home', link: '/' },
   { page: 'About', link: '/about' },
-  { page: 'Posts', link: '/posts' },
+  { page: 'Friends', link: '/friends' },
 ];
 
 const MainLayout = ({ children, title }) => {

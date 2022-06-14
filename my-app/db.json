@@ -1,0 +1,303 @@
+{
+  "friends": [
+    {
+      "id": "62a82f1a147116f955c182e3",
+      "index": 0,
+      "guid": "df2da25f-2526-442e-a529-002082998167",
+      "isActive": true,
+      "balance": "$1,666.97",
+      "picture": "https://images.pexels.com/photos/1892875/pexels-photo-1892875.jpeg?cs=srgb&dl=pexels-wesner-rodrigues-1892875.jpg&fm=jpg",
+      "age": 20,
+      "eyeColor": "green",
+      "name": "Marina Hinton",
+      "gender": "female",
+      "company": "CINASTER",
+      "email": "marinahinton@cinaster.com",
+      "phone": "+1 (878) 598-2000",
+      "address": "664 Irwin Street, Northridge, Northern Mariana Islands, 2101",
+      "about": "Officia adipisicing ad dolore minim cillum magna. Non ea officia labore in id culpa voluptate Lorem tempor laboris esse excepteur id irure. Nulla voluptate ullamco dolore consectetur dolor id commodo cupidatat amet esse qui Lorem.\r\n",
+      "registered": "2019-09-01T03:38:36 -03:00",
+      "latitude": -75.900999,
+      "longitude": 69.552858,
+      "tags": [
+        "ut",
+        "exercitation",
+        "officia",
+        "voluptate",
+        "aute",
+        "quis",
+        "aliquip"
+      ],
+      "friends": [
+        {
+          "id": 0,
+          "name": "Lindsey Gallagher"
+        },
+        {
+          "id": 1,
+          "name": "Patterson Mcmillan"
+        },
+        {
+          "id": 2,
+          "name": "Luann Doyle"
+        }
+      ],
+      "greeting": "Hello, Marina Hinton! You have 6 unread messages.",
+      "favoriteFruit": "apple"
+    },
+    {
+      "id": "62a82f1ad3180781b4739cf2",
+      "index": 1,
+      "guid": "8e3d478f-b161-42b0-8756-9e2daa4fbb09",
+      "isActive": false,
+      "balance": "$3,454.21",
+      "picture": "https://images.pexels.com/photos/1805404/pexels-photo-1805404.jpeg?cs=srgb&dl=pexels-andrea-piacquadio-1805404.jpg&fm=jpg",
+      "age": 39,
+      "eyeColor": "blue",
+      "name": "Samantha Bright",
+      "gender": "female",
+      "company": "MACRONAUT",
+      "email": "samanthabright@macronaut.com",
+      "phone": "+1 (917) 516-2606",
+      "address": "342 Box Street, Barclay, Palau, 6151",
+      "about": "Id fugiat ex mollit officia tempor ullamco. Adipisicing incididunt eiusmod proident adipisicing duis excepteur officia consectetur dolore veniam reprehenderit velit ad. Dolore commodo laboris enim dolore ipsum nostrud ex aute consequat. Amet incididunt exercitation exercitation in mollit tempor fugiat.\r\n",
+      "registered": "2017-02-03T08:39:36 -02:00",
+      "latitude": -71.081432,
+      "longitude": 110.786328,
+      "tags": [
+        "nostrud",
+        "pariatur",
+        "ut",
+        "voluptate",
+        "anim",
+        "nulla",
+        "aliquip"
+      ],
+      "friends": [
+        {
+          "id": 0,
+          "name": "Cleo Mckenzie"
+        },
+        {
+          "id": 1,
+          "name": "Estela Henry"
+        },
+        {
+          "id": 2,
+          "name": "Sally Mcdowell"
+        }
+      ],
+      "greeting": "Hello, Samantha Bright! You have 4 unread messages.",
+      "favoriteFruit": "banana"
+    },
+    {
+      "id": "62a82f1a2f3025f3d92d683a",
+      "index": 2,
+      "guid": "cfee7212-df01-4944-9d77-429c79f4ecc9",
+      "isActive": false,
+      "balance": "$2,028.89",
+      "picture": "https://images.pexels.com/photos/1851253/pexels-photo-1851253.jpeg?cs=srgb&dl=pexels-frank-k-1851253.jpg&fm=jpg",
+      "age": 37,
+      "eyeColor": "brown",
+      "name": "Rodriquez Wood",
+      "gender": "male",
+      "company": "ARCHITAX",
+      "email": "rodriquezwood@architax.com",
+      "phone": "+1 (806) 401-3973",
+      "address": "294 Dekoven Court, Why, Maryland, 1351",
+      "about": "Aliqua dolor occaecat adipisicing fugiat ea eiusmod adipisicing aliquip mollit consectetur nisi cillum id magna. Pariatur anim sint voluptate incididunt officia duis. Minim cupidatat ullamco sit id Lorem ea consequat officia nulla amet ad ea ex sunt. Excepteur non occaecat eiusmod reprehenderit esse fugiat elit voluptate labore sunt fugiat ut dolore dolor.\r\n",
+      "registered": "2017-07-12T05:07:58 -03:00",
+      "latitude": 77.156827,
+      "longitude": 92.951565,
+      "tags": [
+        "tempor",
+        "in",
+        "magna",
+        "magna",
+        "exercitation",
+        "officia",
+        "culpa"
+      ],
+      "friends": [
+        {
+          "id": 0,
+          "name": "Young Hensley"
+        },
+        {
+          "id": 1,
+          "name": "Leila Stewart"
+        },
+        {
+          "id": 2,
+          "name": "Jennifer Rice"
+        }
+      ],
+      "greeting": "Hello, Rodriquez Wood! You have 2 unread messages.",
+      "favoriteFruit": "strawberry"
+    },
+    {
+      "id": "62a82f1abc42c1978aaa7419",
+      "index": 3,
+      "guid": "15fa59fb-2019-43cb-a0e8-5116788f9fee",
+      "isActive": false,
+      "balance": "$2,285.62",
+      "picture": "https://images.pexels.com/photos/2112728/pexels-photo-2112728.jpeg?cs=srgb&dl=pexels-lucas-pezeta-2112728.jpg&fm=jpg",
+      "age": 28,
+      "eyeColor": "green",
+      "name": "Leon Ellison",
+      "gender": "male",
+      "company": "SYBIXTEX",
+      "email": "leonellison@sybixtex.com",
+      "phone": "+1 (970) 449-3115",
+      "address": "663 Strauss Street, Kidder, Vermont, 7419",
+      "about": "Est adipisicing ullamco dolor ex. Aliquip mollit quis commodo elit ea. Dolore esse id ipsum ullamco amet et ea. Ut ea nulla mollit est ullamco consectetur voluptate nisi. Duis dolor officia do deserunt ea. Aute ex consequat ut duis. Qui commodo aliqua non nostrud id fugiat consequat excepteur.\r\n",
+      "registered": "2014-01-14T04:32:49 -02:00",
+      "latitude": 36.210074,
+      "longitude": 123.675426,
+      "tags": ["est", "cillum", "nostrud", "aliqua", "irure", "do", "ut"],
+      "friends": [
+        {
+          "id": 0,
+          "name": "Gracie Harrison"
+        },
+        {
+          "id": 1,
+          "name": "Shaw Aguirre"
+        },
+        {
+          "id": 2,
+          "name": "Baldwin Miller"
+        }
+      ],
+      "greeting": "Hello, Leon Ellison! You have 7 unread messages.",
+      "favoriteFruit": "banana"
+    },
+    {
+      "id": "62a82f1aa655bc929073bbe1",
+      "index": 4,
+      "guid": "c999370d-0f12-4905-9ab3-a678d0282826",
+      "isActive": false,
+      "balance": "$1,628.42",
+      "picture": "https://images.pexels.com/photos/3760707/pexels-photo-3760707.jpeg?cs=srgb&dl=pexels-sound-on-3760707.jpg&fm=jpg",
+      "age": 22,
+      "eyeColor": "green",
+      "name": "Carissa Roberson",
+      "gender": "female",
+      "company": "ENTALITY",
+      "email": "carissaroberson@entality.com",
+      "phone": "+1 (883) 531-2716",
+      "address": "317 Lawn Court, Bodega, Wyoming, 6505",
+      "about": "Enim dolore tempor anim elit non ex deserunt Lorem ea magna aute. Ipsum commodo labore deserunt voluptate reprehenderit aute proident eiusmod irure quis veniam anim ipsum ea. In cillum incididunt consectetur magna ea consequat irure et mollit tempor ullamco. Excepteur consectetur do voluptate ipsum nostrud. Commodo enim non adipisicing nisi quis duis dolore. Mollit ex exercitation ut magna duis dolor culpa adipisicing Lorem ea eiusmod velit aute ea. Minim commodo reprehenderit sunt eiusmod consequat tempor officia velit adipisicing.\r\n",
+      "registered": "2017-11-04T03:27:26 -02:00",
+      "latitude": 87.686017,
+      "longitude": -86.647292,
+      "tags": [
+        "aliqua",
+        "aliquip",
+        "dolore",
+        "consectetur",
+        "elit",
+        "sint",
+        "incididunt"
+      ],
+      "friends": [
+        {
+          "id": 0,
+          "name": "Francis Munoz"
+        },
+        {
+          "id": 1,
+          "name": "Leola Spencer"
+        },
+        {
+          "id": 2,
+          "name": "Horn Pickett"
+        }
+      ],
+      "greeting": "Hello, Carissa Roberson! You have 9 unread messages.",
+      "favoriteFruit": "banana"
+    },
+    {
+      "id": "62a82f1a776400e4a11083c3",
+      "index": 5,
+      "guid": "8e452d50-5462-4371-a8c0-51ee32e31757",
+      "isActive": true,
+      "balance": "$2,214.46",
+      "picture": "https://images.pexels.com/photos/1024311/pexels-photo-1024311.jpeg?cs=srgb&dl=pexels-mentatdgt-1024311.jpg&fm=jpghttps://images.pexels.com/photos/1024311/pexels-photo-1024311.jpeg?cs=srgb&dl=pexels-mentatdgt-1024311.jpg&fm=jpg",
+      "age": 38,
+      "eyeColor": "brown",
+      "name": "Irene Flores",
+      "gender": "female",
+      "company": "ROCKYARD",
+      "email": "ireneflores@rockyard.com",
+      "phone": "+1 (838) 512-2915",
+      "address": "163 Argyle Road, Movico, Illinois, 2582",
+      "about": "Reprehenderit laborum aliquip nisi nisi nostrud. Aute excepteur est qui ipsum duis sunt aliquip occaecat ut minim consequat reprehenderit. Esse excepteur in nostrud eu reprehenderit duis aliqua tempor duis sint officia ullamco qui. Nostrud nisi dolor reprehenderit mollit non. Anim pariatur aliquip dolor et velit aute mollit consequat sunt elit voluptate in Lorem commodo.\r\n",
+      "registered": "2021-12-16T03:25:26 -02:00",
+      "latitude": -85.893757,
+      "longitude": -67.437961,
+      "tags": ["enim", "non", "laborum", "fugiat", "proident", "et", "aliqua"],
+      "friends": [
+        {
+          "id": 0,
+          "name": "Cristina Nieves"
+        },
+        {
+          "id": 1,
+          "name": "Garcia Payne"
+        },
+        {
+          "id": 2,
+          "name": "Delacruz Hutchinson"
+        }
+      ],
+      "greeting": "Hello, Irene Flores! You have 3 unread messages.",
+      "favoriteFruit": "banana"
+    },
+    {
+      "id": "62a82f1a0be22bc15f602a7a",
+      "index": 6,
+      "guid": "c821afa5-17c5-4e91-b362-ca11aee8df69",
+      "isActive": true,
+      "balance": "$3,696.50",
+      "picture": "https://images.pexels.com/photos/3228916/pexels-photo-3228916.jpeg?cs=srgb&dl=pexels-fauxels-3228916.jpg&fm=jpg",
+      "age": 27,
+      "eyeColor": "blue",
+      "name": "Nunez Adams",
+      "gender": "male",
+      "company": "ZOLAVO",
+      "email": "nunezadams@zolavo.com",
+      "phone": "+1 (905) 413-3935",
+      "address": "261 Seaview Avenue, Vale, Hawaii, 1124",
+      "about": "Ullamco et ullamco laboris velit voluptate ad excepteur labore amet ad magna proident. Proident excepteur duis mollit id exercitation nulla do id ullamco. Quis ipsum veniam sit anim tempor laborum et ipsum voluptate voluptate qui reprehenderit.\r\n",
+      "registered": "2018-07-17T12:17:30 -03:00",
+      "latitude": 71.725074,
+      "longitude": 86.331932,
+      "tags": [
+        "exercitation",
+        "pariatur",
+        "cillum",
+        "aliqua",
+        "voluptate",
+        "anim",
+        "incididunt"
+      ],
+      "friends": [
+        {
+          "id": 0,
+          "name": "Natalie Walter"
+        },
+        {
+          "id": 1,
+          "name": "Boyle Schmidt"
+        },
+        {
+          "id": 2,
+          "name": "Jefferson Summers"
+        }
+      ],
+      "greeting": "Hello, Nunez Adams! You have 4 unread messages.",
+      "favoriteFruit": "banana"
+    }
+  ]
+}
