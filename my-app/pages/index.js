@@ -8,7 +8,7 @@ const Home = () => {
 
       <Link href='/about'>GO TO ABOUT</Link>
       <br />
-      <Link href={'/posts'}>GO TO FRIENDS</Link>
+      <Link href={'/friends'}>GO TO FRIENDS</Link>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur
         at, unde voluptate nulla, accusamus facilis mollitia expedita

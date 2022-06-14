@@ -2,16 +2,16 @@ import React from 'react';
 import Router from 'next/router';
 import MainLayout from '../../components/MainLayout';
 
-const About = () => {
+const About = ({ title }) => {
   const onClick = (way) => {
     Router.push(way);
   };
 
   return (
-    <MainLayout title="ABOUT">
-      <button onClick={() => onClick('/')}>Go back Home</button>
-      <button onClick={() => onClick('/posts')}>Go to Friends</button>
-      <h1>ABOUT PAGE</h1>
+    <MainLayout title='ABOUT'>
+      <button onClick={() => onClick('/')}>Go Home</button>
+      <button onClick={() => onClick('/friends')}>Go to Friends</button>
+      <h1>{title}</h1>
       <p>
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque
         voluptatum repellat dolores distinctio dolore aliquid, ducimus aut
@@ -38,6 +38,12 @@ const About = () => {
       </p>
     </MainLayout>
   );
+};
+
+About.getInitialProps = async () => {
+  const response = await fetch(`http://localhost:4200/about/`);
+  const { title } = await response.json();
+  return { title };
 };
 
 export default About;

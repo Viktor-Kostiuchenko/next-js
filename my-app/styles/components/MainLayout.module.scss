@@ -1,0 +1,41 @@
+.main_container {
+  display: flex;
+  flex-direction: row-reverse;
+  height: 100vh;
+}
+
+.nav {
+  height: 60px;
+  background: #1e1e1e;
+  height: 100%;
+  padding: 20px; 
+}
+
+.nav_list { 
+  margin: 0;
+  list-style: none;
+}
+
+.nav_item {
+  display: block;
+  cursor: pointer;
+
+  &:not(:last-child){
+    margin-bottom: 20px;
+  }
+}
+
+.nav_link {
+  color: #f1f1f1;
+  text-decoration: none;
+
+    
+  &:hover {
+    color:indianred;
+  }
+}
+
+.main {
+  flex-grow: 1;
+  padding: 20px;
+}

@@ -1,0 +1,33 @@
+.wrapper {
+  display: flex;
+  gap: 20px;
+}
+
+.go_back_btn {
+  width: 150px;
+  padding: 15px;
+  display: block;
+  background-color: #c1c1c1;
+  border-radius: 5px;
+}
+
+.friend {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+  &:not(:last-child) {
+    margin-bottom: 20px;
+  }
+}
+
+.img {
+  width: 150px;
+  height: 225px;
+  background-color: #b1b1b1;
+}
+
+.name {
+  font-weight: 700;
+}
