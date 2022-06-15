@@ -28,20 +28,6 @@
         "quis",
         "aliquip"
       ],
-      "friends": [
-        {
-          "id": 0,
-          "name": "Lindsey Gallagher"
-        },
-        {
-          "id": 1,
-          "name": "Patterson Mcmillan"
-        },
-        {
-          "id": 2,
-          "name": "Luann Doyle"
-        }
-      ],
       "greeting": "Hello, Marina Hinton! You have 6 unread messages.",
       "favoriteFruit": "apple"
     },
@@ -72,20 +58,6 @@
         "anim",
         "nulla",
         "aliquip"
-      ],
-      "friends": [
-        {
-          "id": 0,
-          "name": "Cleo Mckenzie"
-        },
-        {
-          "id": 1,
-          "name": "Estela Henry"
-        },
-        {
-          "id": 2,
-          "name": "Sally Mcdowell"
-        }
       ],
       "greeting": "Hello, Samantha Bright! You have 4 unread messages.",
       "favoriteFruit": "banana"
@@ -118,20 +90,7 @@
         "officia",
         "culpa"
       ],
-      "friends": [
-        {
-          "id": 0,
-          "name": "Young Hensley"
-        },
-        {
-          "id": 1,
-          "name": "Leila Stewart"
-        },
-        {
-          "id": 2,
-          "name": "Jennifer Rice"
-        }
-      ],
+
       "greeting": "Hello, Rodriquez Wood! You have 2 unread messages.",
       "favoriteFruit": "strawberry"
     },
@@ -155,20 +114,6 @@
       "latitude": 36.210074,
       "longitude": 123.675426,
       "tags": ["est", "cillum", "nostrud", "aliqua", "irure", "do", "ut"],
-      "friends": [
-        {
-          "id": 0,
-          "name": "Gracie Harrison"
-        },
-        {
-          "id": 1,
-          "name": "Shaw Aguirre"
-        },
-        {
-          "id": 2,
-          "name": "Baldwin Miller"
-        }
-      ],
       "greeting": "Hello, Leon Ellison! You have 7 unread messages.",
       "favoriteFruit": "banana"
     },
@@ -200,20 +145,6 @@
         "sint",
         "incididunt"
       ],
-      "friends": [
-        {
-          "id": 0,
-          "name": "Francis Munoz"
-        },
-        {
-          "id": 1,
-          "name": "Leola Spencer"
-        },
-        {
-          "id": 2,
-          "name": "Horn Pickett"
-        }
-      ],
       "greeting": "Hello, Carissa Roberson! You have 9 unread messages.",
       "favoriteFruit": "banana"
     },
@@ -237,20 +168,6 @@
       "latitude": -85.893757,
       "longitude": -67.437961,
       "tags": ["enim", "non", "laborum", "fugiat", "proident", "et", "aliqua"],
-      "friends": [
-        {
-          "id": 0,
-          "name": "Cristina Nieves"
-        },
-        {
-          "id": 1,
-          "name": "Garcia Payne"
-        },
-        {
-          "id": 2,
-          "name": "Delacruz Hutchinson"
-        }
-      ],
       "greeting": "Hello, Irene Flores! You have 3 unread messages.",
       "favoriteFruit": "banana"
     },
@@ -281,20 +198,6 @@
         "voluptate",
         "anim",
         "incididunt"
-      ],
-      "friends": [
-        {
-          "id": 0,
-          "name": "Natalie Walter"
-        },
-        {
-          "id": 1,
-          "name": "Boyle Schmidt"
-        },
-        {
-          "id": 2,
-          "name": "Jefferson Summers"
-        }
       ],
       "greeting": "Hello, Nunez Adams! You have 4 unread messages.",
       "favoriteFruit": "banana"

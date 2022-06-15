@@ -1,3 +1,4 @@
+import { NextPageContext } from 'next';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { useState, useEffect } from 'react';
@@ -51,11 +52,11 @@ const Friend = ({ friend: serverFriend }) => {
 };
 
 //! OLD METHOD IF WE USE AS SSR AND CSR
-Friend.getInitialProps = async ({ query, req }) => {
+Friend.getInitialProps = async ({ query, req }:NextPageContext) => {
   if (!req) {
     return { friend: null };
   }
-  const res = await fetch(`http://localhost:4200/friends/${query.friendId}`);
+  const res = await fetch(`${process.env.API_URL}//friends/${query.friendId}`);
   const friend = await res.json();
   return { friend };
 };

@@ -3,7 +3,7 @@ import Router from 'next/router';
 import MainLayout from '../../components/MainLayout';
 
 const About = ({ title }) => {
-  const onClick = (way) => {
+  const onClick = (way: string) => {
     Router.push(way);
   };
 
@@ -41,7 +41,7 @@ const About = ({ title }) => {
 };
 
 About.getInitialProps = async () => {
-  const response = await fetch(`http://localhost:4200/about/`);
+  const response = await fetch(`${process.env.API_URL}/about`);
   const { title } = await response.json();
   return { title };
 };

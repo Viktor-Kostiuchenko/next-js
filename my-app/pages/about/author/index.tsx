@@ -1,3 +1,4 @@
+import MainLayout from '../../../components/MainLayout';
 
 const Author = () => {
   return (

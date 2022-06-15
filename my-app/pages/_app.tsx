@@ -1,10 +1,10 @@
-import NextNProgress from 'nextjs-progressbar';
+// import NextNProgress from 'nextjs-progressbar';
 import '../styles/main.scss';
 
 const App = ({ Component, pageProps }) => {
   return (
     <>
-      <div id='loader'>
+      {/* <div id='loader'>
         <NextNProgress
           color='#29D'
           startPosition={0.3}
@@ -12,7 +12,7 @@ const App = ({ Component, pageProps }) => {
           height={3}
           showOnShallow={true}
         />
-      </div>
+      </div> */}
       <Component {...pageProps} />;
     </>
   );
