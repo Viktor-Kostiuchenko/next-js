@@ -4,8 +4,8 @@ import styles from '../styles/components/MainLayout.module.scss'
 
 const pages = [
   { page: 'Home', link: '/' },
-  { page: 'About', link: '/about' },
   { page: 'Friends', link: '/friends' },
+  { page: 'About', link: '/about' },
 ];
 
 const MainLayout = ({ children, title }) => {

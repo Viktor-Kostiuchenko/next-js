@@ -3,21 +3,23 @@ import { FC } from 'react';
 import MainLayout from '../../components/MainLayout';
 import { IFriend } from '../../interfaces/friend';
 import styles from '../../styles/friends.module.scss';
+// import { useHistory } from 'react-router-dom';
+import { useRouter } from 'next/router';
 
 interface IProps {
-  friends: IFriend[]
+  friends: IFriend[];
 }
 
 const Friends = ({ friends }: IProps) => {
-  console.log(friends);
+
   return (
     <MainLayout title='FRIENDS'>
-      <h1>FRIENDS PAGE</h1>
+      <h1 className={styles.title}>FRIENDS PAGE</h1>
       <ul className={styles.list}>
         {friends.map(({ id, name }) => (
           <li key={id}>
-            <Link href={`/friends/[friendId]`} as={`/friends/${id}`}>
-              {name}
+            <Link href={`/friends/[id]`} as={`/friends/${id}`}>
+              <a className={styles.link}>{name}</a>
             </Link>
           </li>
         ))}
@@ -31,5 +33,6 @@ Friends.getInitialProps = async () => {
   const friends: IFriend[] = await res.json();
   return { friends };
 };
+
 
 export default Friends;

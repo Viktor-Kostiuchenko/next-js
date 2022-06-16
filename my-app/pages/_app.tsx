@@ -13,7 +13,7 @@ const App = ({ Component, pageProps }) => {
           showOnShallow={true}
         />
       </div> */}
-      <Component {...pageProps} />;
+      <Component {...pageProps} />
     </>
   );
 };

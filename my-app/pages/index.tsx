@@ -1,14 +1,11 @@
-import Link from 'next/link';
 import MainLayout from '../components/MainLayout';
+import styles from '../styles/home.module.scss'
 
 const Home = () => {
   return (
     <MainLayout title='HOME'>
-      <h1>HOME PAGE</h1>
+      <h1 className={styles.title}>HOME PAGE</h1>
 
-      <Link href='/about'>GO TO ABOUT</Link>
-      <br />
-      <Link href={'/friends'}>GO TO FRIENDS</Link>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur
         at, unde voluptate nulla, accusamus facilis mollitia expedita

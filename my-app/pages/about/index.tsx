@@ -1,6 +1,7 @@
 import React from 'react';
 import Router from 'next/router';
 import MainLayout from '../../components/MainLayout';
+import styles from '../../styles/about.module.scss'
 
 const About = ({ title }) => {
   const onClick = (way: string) => {
@@ -9,9 +10,7 @@ const About = ({ title }) => {
 
   return (
     <MainLayout title='ABOUT'>
-      <button onClick={() => onClick('/')}>Go Home</button>
-      <button onClick={() => onClick('/friends')}>Go to Friends</button>
-      <h1>{title}</h1>
+      <h1 className={styles.title}>{title}</h1>
       <p>
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque
         voluptatum repellat dolores distinctio dolore aliquid, ducimus aut

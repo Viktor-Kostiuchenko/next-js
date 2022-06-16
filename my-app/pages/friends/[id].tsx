@@ -8,10 +8,14 @@ const Friend = ({ friend: serverFriend }) => {
   const [friend, setFriend] = useState(serverFriend);
   const router = useRouter();
 
+  const onBackClick = () => {
+    router.back();
+  };
+
   useEffect(() => {
     const load = async () => {
       const response = await fetch(
-        `http://localhost:4200/friends/${router.query.friendId}`
+        `${process.env.API_URL}/friends/${router.query.id}`
       );
       const result = await response.json();
       setFriend(result);
@@ -24,9 +28,9 @@ const Friend = ({ friend: serverFriend }) => {
 
   return (
     <div className={styles.wrapper}>
-      <Link href='/friends'>
-        <span className={styles.go_back_btn}>Back to friends</span>
-      </Link>
+      <button onClick={onBackClick}>
+        <span className={styles.go_back_btn}>go back</span>
+      </button>
       {!friend && <h1>LOADING ...</h1>}
       {friend && (
         <div className={styles.friend}>
@@ -56,7 +60,7 @@ Friend.getInitialProps = async ({ query, req }:NextPageContext) => {
   if (!req) {
     return { friend: null };
   }
-  const res = await fetch(`${process.env.API_URL}//friends/${query.friendId}`);
+  const res = await fetch(`${process.env.API_URL}/friends/${query.id}`);
   const friend = await res.json();
   return { friend };
 };
@@ -66,7 +70,7 @@ Friend.getInitialProps = async ({ query, req }:NextPageContext) => {
 //   if (!req) {
 //     return { friend: null };
 //   }
-//   const res = await fetch(`http://localhost:4200/friends/${query.friendId}`);
+//   const res = await fetch(`http://localhost:4200/friends/${query.id}`);
 //   const friend = await res.json();
 
 //   return {
