@@ -1,22 +1,30 @@
-.wrapper {
-  display: flex;
-  gap: 20px;
-}
-
-.go_back_btn {
+.button {
   width: 150px;
   padding: 15px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #eee7e7;
   border-radius: 5px;
   cursor: pointer;
+  position: relative;
+
+  &::before {
+    content: '';
+    position: absolute;
+    background: url('../public/assets/icons/sprite.svg');
+    width: 100px;
+    height: 100px;
+    z-index: 4;
+  }
+}
+
+.icon_back {
+  fill: indianred;
+  margin-left: 5px;
 }
 
 .friend {
   display: flex;
-  justify-content: center;
   align-items: center;
   gap: 20px;
 

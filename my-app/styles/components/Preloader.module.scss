@@ -1,0 +1,139 @@
+.loading {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: indianred;
+  z-index: 9999;
+  opacity: 1;
+  transition: all;
+}
+
+.loading_inner {
+	// position: absolute;
+	// bottom: 0;
+	// left: 0;
+	// right: 0;
+  margin: 15px auto 0;
+  text-align: center;
+  width: 100%;
+  height: 100px;
+  line-height: 100px;
+  top: -77px;
+  & span {
+		font-size: 32px;
+    display: inline-block;
+    margin: 0 6px;  
+    color: rgba(246, 210, 80, 0.5);
+    
+    @for $i from 0 through 6 {
+			&:nth-child(#{$i + 1}) {
+				filter: blur(0px);
+				animation: blur-text 1.5s (#{$i/5})+s infinite linear alternate;
+			}
+		}
+    @keyframes blur-text {
+      0% {filter: blur(0px);}
+      100% {filter: blur(4px);}
+    }
+  }
+}
+
+.wave_wrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+	flex-direction: column;
+}
+
+.wave {
+  width: 300px;
+  height: 300px;
+  background-color: #2c3246;
+  border-radius: 50%;
+  position: relative;
+  box-shadow: inset 0 0 30px 0 rgba(0, 0, 0, 0.5),
+    0 4px 10px 0 rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+}
+
+.wave:before,
+.wave:after {
+  content: '';
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  top: 140px;
+}
+.wave:before {
+  border-radius: 50%;
+  background: #f6d250;
+  // animation: wave 5s linear infinite;
+}
+.wave:after {
+  border-radius: 40%;
+  background: rgba(246, 210, 80, 0.5);
+  animation: wave 5s linear infinite;
+}
+@keyframes wave {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+.shadow {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, 50%);
+	width: 350px;
+	height: 350px;
+	border-radius: 100%;
+	// background: linear-gradient(165deg, rgba(255,255,255,1) 0%, rgb(220, 220, 220) 40%, rgb(170, 170, 170) 98%, #2c3246 100%);
+	background-color: #2c3246;
+	position: relative;
+	// overflow: hidden;
+}
+
+.logo_bottom {
+  position: relative;
+  bottom: -40%;
+  width: 350px;
+  height: 215px;
+}
+
+.shadow_inner:before {
+	position: absolute;
+	content: '';
+	z-index: 99;
+	width: 100%;
+	height: 100%;
+	border-radius: 100%;
+	border-bottom: 0 solid #ffffff05;
+	
+	box-shadow: 
+		0 -10px 20px 20px #ffffff40 inset,
+		0 -5px 15px 10px #ffffff50 inset,
+		0 -2px 5px #ffffff80 inset,
+		0 -3px 2px #ffffffBB inset,
+		0 2px 0px #ffffff,
+		0 2px 3px #ffffff,
+		0 5px 5px #ffffff90,
+		0 10px 15px #ffffff60,
+		0 10px 20px 20px #ffffff40;
+	filter: blur(3px);
+	animation: 2s rotate linear infinite;
+}
+
+@keyframes rotate {
+	100% {
+		transform: rotate(360deg)
+	}
+}	

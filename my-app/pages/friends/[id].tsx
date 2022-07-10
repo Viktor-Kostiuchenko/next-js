@@ -1,5 +1,4 @@
 import { NextPageContext } from 'next';
-import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { useState, useEffect } from 'react';
 import styles from '../../styles/friend.module.scss';
@@ -28,8 +27,11 @@ const Friend = ({ friend: serverFriend }) => {
 
   return (
     <div className={styles.wrapper}>
-      <button onClick={onBackClick}>
-        <span className={styles.go_back_btn}>go back</span>
+      <button className={styles.button} onClick={onBackClick}>
+        <span>go back</span>
+        <svg className={styles.icon_back} width='16' height='16'>
+          <use href='/assets/icons/sprite.svg#return'></use>
+        </svg>
       </button>
       {!friend && <h1>LOADING ...</h1>}
       {friend && (
@@ -55,8 +57,14 @@ const Friend = ({ friend: serverFriend }) => {
   );
 };
 
+// export const getStaticProps = async ({ params }) => {
+//   const res = await fetch(`${process.env.API_URL}/friends/${params.id}`);
+//   const friend = await res.json();
+//   return { props: { friend } };
+// };
+
 //! OLD METHOD IF WE USE AS SSR AND CSR
-Friend.getInitialProps = async ({ query, req }:NextPageContext) => {
+Friend.getInitialProps = async ({ query, req }: NextPageContext) => {
   if (!req) {
     return { friend: null };
   }

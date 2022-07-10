@@ -1,0 +1,15 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<defs>
+		<symbol id="return" viewBox="0 0 32 32">
+			<path
+				d="M23.808 32c3.554-6.439 4.153-16.26-9.808-15.932v7.932l-12-12 12-12v7.762c16.718-0.436 18.58 14.757 9.808 24.238z">
+			</path>
+		</symbol>
+		<symbol id="logo_bottom" viewBox="0 0 28 20" xmlns="http://www.w3.org/2000/svg">
+			<path fill-rule="evenodd" clip-rule="evenodd"
+				d="M27.5858 11.6155C25.1308 16.5819 19.998 19.9992 14.0638 19.9992C8.12951 19.9992 2.9968 16.5819 0.541748 11.6155C1.04097 5.2349 6.90425 0.199219 14.0638 0.199219C21.2233 0.199219 27.0866 5.2349 27.5858 11.6155Z"
+				fill="#F6D250" />
+		</symbol>
+
+	</defs>
+</svg>
